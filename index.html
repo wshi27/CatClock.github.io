@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digial Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>
+        <div id="greetings">Greetings goes here</div>
+    </h2>
+    <h4>
+        <span id="clock">Clock goes here!</span>
+    </h4>
+        <div>
+            <img id="cat-img" src="whatTimeIsIt.jpg">
+        </div>
+    <div>
+        <ul id="setTime">
+            <li>
+                <span>Set Wakeup Time: </span>
+                <input id="wakeupTime" type="time" value="07:00"/>
+                
+            </li>
+            <li>
+                <span>Set Lunch Time: </span>
+                <input id="lunchTime" type="time" value="12:00"/>
+            </li>
+            <li>
+                <span>Set Nap Time: </span>
+                <input id="napTime" type="time" value="14:00"/>
+            </li>
+        </ul>
+    </div>
+    <button id="partyTime" onclick="setTimer()">Party Time!</button>
+    
+    <script src="script.js"></script>
+</body>
+</html>
